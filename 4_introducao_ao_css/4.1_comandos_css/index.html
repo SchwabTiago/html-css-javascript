@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Comandos no css</title>
 </head>
 
@@ -19,6 +18,11 @@
     <p>Isso é um exemplo de background-image e background-size ↓</p>
     <div style="background-image: url(./img/img.jpg); background-size:contain ;height: 100px; width: 100px;"></div>
     <br />
+    <p>Isso é um exemplo de padding sem box-sizing (100px + 100px + 100px = 300px) ↓</p>
+    <div style="height: 100px; width: 100px; padding: 100px; background-color: blueviolet;"></div>
+    <br />
+    <p>Isso é um exemplo de padding com border-box "corrigindo" o problema ↓</p>
+    <div style="box-sizing: border-box; height: 100px; width: 100px; padding: 100px; background-color: green;"></div>
 </body>
 
 </html>
