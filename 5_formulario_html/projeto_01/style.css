@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -9,6 +12,52 @@ body {
     background-color: #F1EBF7;
 }
 
+hr {
+    height: 1px;
+    background-color: #683AB1;
+    border: none;
+}
+
+textarea {
+    padding: 10px 10px 10px 0;
+    width: 400px;
+    border: none;
+    font-size: 13px;
+    border-bottom: 1px solid #683AB1;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    padding: 10px 10px 10px 0;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #683AB1;
+    margin-bottom: 15px;
+}
+
+input[type="date"] {
+    font-weight: 300;
+    padding: 10px 10px 10px 0;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #683AB1;
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="button"] {
+    padding: 20px 50px;
+    text-transform: uppercase;
+    background-color: #683AB1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 #top-side {
     padding: 20px 0 170px 50px;
     background-color: #683AB1;
@@ -16,15 +65,72 @@ body {
 }
 
 #top-side p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.2em;
 }
 
 #main-container {
-    z-index: -20px;
+    z-index: -20;
     background-color: white;
-    padding: 20px;
     width: 70%;
-    margin: -70px auto 0 auto;
+    margin: -80px auto 0 auto;
+}
+
+#header {
     text-align: center;
+    text-transform: uppercase;
+    color: #683AB1;
+}
+
+#header span {
+    display: inline-block;
+    margin: 20px;
+}
+
+#main-content {
+    padding: 30px;
+}
+
+#main-content p {
+    font-weight: 300;
+    padding: 20px 0 0 0;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+}
+
+#transmission {
+    margin: 10px 0 20px 0;
+}
+
+#transmission p {
+    padding: 0 0 10px 0;
+}
+
+#opcionais-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.opcionais-coluna {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.opcionais-coluna label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botao-container {
+    margin-top: 20px;
+}
+
+.botao-container input[type="button"] {
+    display: block;
 }

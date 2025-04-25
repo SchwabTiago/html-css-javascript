@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cadastro de Veículo</title>
 </head>
 
 <body>
@@ -14,41 +14,71 @@
         <div id="banner"></div>
     </div>
     <div id="main-container">
-        <span>formulario</span>
-        <hr>
-        <h3>Venda facil seu carro!</h3>
-        <p>Descreva as caracteristicas e marque as opções que ele possui</p>
-        <form>
-            <p>Titulo do anuncio</p>
-            <input type="text" name="" id="">
-            <p>Preço</p>
-            <input type="text" name="" id="">
-            <p>Descrição</p>
-            <textarea name="" id=""></textarea>
-            <p>Marca do veiculo</p>
-            <input type="text" name="" id="">
-            <p>Modelo do veiculo</p>
-            <input type="text" name="" id="">
-            <p>Kilometragem</p>
-            <input type="text" name="" id="">
-            <p>Data da compra</p>
-            <input type="date" name="" id="">
-            <p>Tipos de cambio</p>
-            <input type="radio" name="a"> <span>☆</span>
-            <input type="radio" name="a"> <span>☆☆</span>
-            <p>Opcionais</p>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <p>Fotos do carro</p>
-            <input type="file" name="" id="">
-            <input type="button" value="Cadastrar">
-        </form>
+        <div id="header">
+            <span>Formulário</span>
+            <hr>
+        </div>
+        <div id="main-content">
+            <h3>Venda fácil seu carro!</h3>
+            <p id="description">Descreva as características e marque as opções que ele possui</p>
+            <form>
+                <p>Título do anúncio</p>
+                <input type="text" placeholder="Um título para anunciar seu carro">
+
+                <p>Preço</p>
+                <input type="text" placeholder="Defina um preço">
+
+                <p>Descrição</p>
+                <textarea
+                    placeholder="Aqui você coloca os detalhes do seu veículo, por exemplo, se há algum arranhão."></textarea>
+
+                <p>Marca do veículo</p>
+                <input type="text" placeholder="Digite a marca do veículo">
+
+                <p>Modelo do veículo</p>
+                <input type="text" placeholder="Digite o modelo do veículo">
+
+                <p>Quilometragem</p>
+                <input type="text" placeholder="Digite a quilometragem do veículo">
+
+                <p>Data da compra</p>
+                <input type="date">
+
+                <div id="transmission">
+                    <p>Tipos de câmbio</p>
+                    <input type="radio" name="cambio" value="manual"> <span>Manual</span>
+                    <input type="radio" name="cambio" value="automatico"> <span>Automático</span>
+                </div>
+
+                <div>
+                    <p>Opcionais:</p>
+                    <div id="opcionais-container">
+                        <div class="opcionais-coluna">
+                            <label><input type="checkbox" name="opcionais" value="airbag"> Airbag</label>
+                            <label><input type="checkbox" name="opcionais" value="alarme"> Alarme</label>
+                            <label><input type="checkbox" name="opcionais" value="ar-condicionado"> Ar
+                                Condicionado</label>
+                            <label><input type="checkbox" name="opcionais" value="camera-re"> Câmera de ré</label>
+                        </div>
+                        <div class="opcionais-coluna">
+                            <label><input type="checkbox" name="opcionais" value="assistente-pista"> Assistente de
+                                pista</label>
+                            <label><input type="checkbox" name="opcionais" value="partida-keyless"> Partida
+                                Keyless</label>
+                            <label><input type="checkbox" name="opcionais" value="integracao-celular"> Integração com
+                                celular</label>
+                            <label><input type="checkbox" name="opcionais" value="banco-couro"> Banco de couro</label>
+                        </div>
+                    </div>
+                </div>
+                <p>Fotos do carro</p>
+                <input type="file" name="fotos" id="fotos">
+                <div class="botao-container">
+                    <input type="button" value="Cadastrar">
+                </div>
+
+            </form>
+        </div>
     </div>
 </body>
 
