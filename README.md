@@ -5,8 +5,8 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ```
 📂 Curso-Front-End
 ├── 📁 2_introducao
-│   ├── 📄 2.2_arquivo_html/ — Exemplo de arquivo HTML básico
-│   └── 📄 2.1_ola_mundo/ — "Hello, World!" em HTML
+│   ├── 📄 2.1_ola_mundo/ — "Hello, World!" em HTML
+│   └── 📄 2.2_arquivo_html/ — Exemplo de arquivo HTML básico  
 ├── 📁 3_introducao_ao_html
 │   ├── 📄 3.1_todas_as_tags_html/ — Demonstração de tags HTML básicas
 │   └── 📄 tarefa_01/ — Primeiro exercício
