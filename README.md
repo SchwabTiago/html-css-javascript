@@ -2,23 +2,20 @@
 
 Este repositório contém os exercícios e projetos desenvolvidos durante o curso de Front-End, abordando desde a introdução ao HTML até a construção de formulários e aplicações estilizadas com CSS.
 
-## 📁 Estrutura do Repositório
-├── 2_introducao
-│ ├── 2.1_arquivo_html/ ← Exemplo de arquivo HTML básico
-│ └── 2.2_ola_mundo/ ← “Hello, World!” em HTML
-│
-├── 3_introducao_ao_html
-│ ├── 3.1_todas_as_tags_html/ ← Demonstração de todas as tags HTML básicas
-│ └── tarefa_01/ ← Primeiro exercício de marcação HTML
-│
-├── 4_introducao_ao_css
-│ ├── 4.1_comandos_css/ ← Propriedades CSS fundamentais
-│ ├── 4.2_textos_no_css/ ← Estilização de texto com CSS
-│ ├── projeto_01/ ← Projeto: card responsivo com CSS
-│
-└── 5_formulario_html
-├── 5.1_tags_para_formularios/ ← Revisão de elementos de formulário
-└── projeto_01/ ← Projeto: formulário de contato
+📂 Curso-Front-End
+├── 📁 2_introducao
+│   ├── 📄 2.1_arquivo_html/ — Exemplo de arquivo HTML básico
+│   └── 📄 2.2_ola_mundo/ — "Hello, World!" em HTML
+├── 📁 3_introducao_ao_html
+│   ├── 📄 3.1_todas_as_tags_html/ — Demonstração de tags HTML básicas
+│   └── 📄 tarefa_01/ — Primeiro exercício de marcação
+├── 📁 4_introducao_ao_css
+│   ├── 📄 4.1_comandos_css/ — Propriedades CSS fundamentais
+│   ├── 📄 4.2_textos_no_css/ — Estilização de textos
+│   ├── 📄 tarefa_01/ — Exercício de estilização
+└── 📁 5_formulario_html
+    ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
+    └── 📄 projeto_01/ — Projeto: Formulário de contato
 
 ---
 
