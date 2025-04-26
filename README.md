@@ -5,11 +5,11 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ```
 📂 Curso-Front-End
 ├── 📁 2_introducao
-│   ├── 📄 2.1_arquivo_html/ — Exemplo de arquivo HTML básico
-│   └── 📄 2.2_ola_mundo/ — "Hello, World!" em HTML
+│   ├── 📄 2.2_arquivo_html/ — Exemplo de arquivo HTML básico
+│   └── 📄 2.1_ola_mundo/ — "Hello, World!" em HTML
 ├── 📁 3_introducao_ao_html
 │   ├── 📄 3.1_todas_as_tags_html/ — Demonstração de tags HTML básicas
-│   └── 📄 tarefa_01/ — Primeiro exercício de marcação
+│   └── 📄 tarefa_01/ — Primeiro exercício
 ├── 📁 4_introducao_ao_css
 │   ├── 📄 4.1_comandos_css/ — Propriedades CSS fundamentais
 │   ├── 📄 4.2_textos_no_css/ — Estilização de textos
@@ -22,13 +22,10 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 
 ## 💼 Projetos Desenvolvidos
 
-### 📌 Projeto 1 - Card com CSS  
+### 📌 Projeto 1 - Site Simples Com Imagem
 Local: `4_introducao_ao_css/projeto_01/`
 
-> 💡 Um card estilizado com cabeçalho, corpo e rodapé usando CSS moderno.
-
-![Imagem do Projeto 1]()
-![Imagem do Projeto 1 (variação)]()
+> 💡 Um site simples estilizado com cabeçalho com corpo e rodapé usando CSS moderno.
 
 ---
 
@@ -37,15 +34,13 @@ Local: `5_formulario_html/projeto_01/`
 
 > 💬 Um formulário completo com campos de texto, opções e botão de envio.
 
-![Imagem do Formulário]()  
-
 ---
 
 ## 🧪 Exercícios por Módulo
 
 | Módulo                   | Exercício                     | Conteúdo Abordado                         |
 |--------------------------|-------------------------------|-------------------------------------------|
-| Introdução               | 2.1, 2.2                       | Estrutura básica de um HTML               |
+| Introdução               | 2.1, 2.2                      | Estrutura básica de um HTML               |
 | HTML                     | 3.1, tarefa_01                | Tags HTML, semântica e estrutura          |
 | CSS                      | 4.1, 4.2, tarefa_01, tarefa_02| Comandos CSS, estilização de texto, layout|
 | Formulários              | 5.1, projeto_01               | Campos, inputs, validações básicas        |
