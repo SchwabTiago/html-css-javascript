@@ -2,6 +2,7 @@
 
 Este repositório contém os exercícios e projetos desenvolvidos durante o curso de Front-End, abordando desde a introdução ao HTML até a construção de formulários e aplicações estilizadas com CSS.
 
+```
 📂 Curso-Front-End
 ├── 📁 2_introducao
 │   ├── 📄 2.1_arquivo_html/ — Exemplo de arquivo HTML básico
@@ -16,7 +17,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 └── 📁 5_formulario_html
     ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
     └── 📄 projeto_01/ — Projeto: Formulário de contato
-
+```
 ---
 
 ## 💼 Projetos Desenvolvidos
