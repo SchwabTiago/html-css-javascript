@@ -14,6 +14,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 │   ├── 📄 4.1_comandos_css/ — Propriedades CSS fundamentais
 │   ├── 📄 4.2_textos_no_css/ — Estilização de textos
 │   ├── 📄 tarefa_01/ — Exercício de estilização
+│   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
 └── 📁 5_formulario_html
     ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
     └── 📄 projeto_01/ — Projeto: Formulário de contato
@@ -22,7 +23,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 
 ## 💼 Projetos Desenvolvidos
 
-### 📌 Projeto 1 - Site Simples Com Imagem
+### 📌 Projeto 1 - Site Simples com Imagem
 Local: `4_introducao_ao_css/projeto_01/`
 
 > 💡 Um site simples estilizado com cabeçalho com corpo e rodapé usando CSS moderno.
