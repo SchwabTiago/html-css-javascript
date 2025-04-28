@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+}
+
+#red-container{
+    margin: 100px;
+    padding: 100px;
+    background-color: #ff7272;
+}
