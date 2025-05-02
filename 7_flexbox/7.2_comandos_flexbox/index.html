@@ -1,17 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <p>elementos pai com display flex e justify content center</p>
-    <div id="main-container">
-      <div id="red-container"></div>
-      <div id="red-container"></div>
-      <div id="red-container"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Flexbox Demonstration</title>
+</head>
+<body>
+  <h1>Flexbox Playground</h1>
+
+  <section>
+    <h2>1. Justify Content</h2>
+    <div class="flex-row justify-space-around">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
     </div>
-  </body>
+
+    <div class="flex-row justify-center">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+
+    <div class="flex-row justify-end">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Flex Direction</h2>
+    <div class="flex-column">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Flex Wrap</h2>
+    <div class="flex-wrap">
+      <!-- 20 caixas para forçar quebra -->
+      <div class="box">1</div><div class="box">2</div><div class="box">3</div><div class="box">4</div>
+      <div class="box">5</div><div class="box">6</div><div class="box">7</div><div class="box">8</div>
+      <div class="box">9</div><div class="box">10</div><div class="box">11</div><div class="box">12</div>
+      <div class="box">13</div><div class="box">14</div><div class="box">15</div><div class="box">16</div>
+      <div class="box">17</div><div class="box">18</div><div class="box">19</div><div class="box">20</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Align Items</h2>
+    <div class="flex-row align-start">
+      <div class="box tall">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+
+    <div class="flex-row align-center">
+      <div class="box tall">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+
+    <div class="flex-row align-end">
+      <div class="box tall">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Order</h2>
+    <div class="flex-row">
+      <div class="box order-3">1</div>
+      <div class="box order-1">2</div>
+      <div class="box order-2">3</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Flex Grow / Shrink / Basis</h2>
+    <div class="flex-row grow-example">
+      <div class="box grow1">1</div>
+      <div class="box grow2">2</div>
+      <div class="box grow1">3</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. Align Self</h2>
+    <div class="flex-row align-self-example">
+      <div class="box">1</div>
+      <div class="box self-center">2</div>
+      <div class="box self-end">3</div>
+    </div>
+  </section>
+</body>
 </html>
