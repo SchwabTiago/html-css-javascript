@@ -22,7 +22,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ├── 📁 7_flexbox
 │   ├── 📄 7.1_aplicando_flexbox/ —
 │   ├── 📄 7.2_comandos_flexbox/ —
-│   └── 📄 projeto_01/ — 
+│   └── 📄 projeto_01/ —
 ```
 ---
 
@@ -45,7 +45,7 @@ Local: `5_formulario_html/projeto_01/`
 ### 📌 Projeto 3 - Site Nebula Hosting
 Local: `7_flexbox/projeto_01/`
 
-> 💬 Um site de hospedagens focado apenas no front-end.
+> 🌌  Um site de hospedagem fictício, focado em layout responsivo com Flexbox.
 
 ---
 
@@ -57,6 +57,8 @@ Local: `7_flexbox/projeto_01/`
 | HTML                     | 3.1, tarefa_01                | Tags HTML, semântica e estrutura          |
 | CSS                      | 4.1, 4.2, tarefa_01, tarefa_02| Comandos CSS, estilização de texto, layout|
 | Formulários              | 5.1, projeto_01               | Campos, inputs, validações básicas        |
+| Responsividade           | -                             | Introdução à responsividade               |
+| Flexbox                  | 7.1, 7.2, projeto_01          | Conceitos de Flexbox                      |
 
 ---
 
