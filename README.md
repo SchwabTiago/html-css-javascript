@@ -20,9 +20,9 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 │   ├── 📄 projeto_01/ — Projeto: Formulário de contato
 ├── 📁 6_responsividade
 ├── 📁 7_flexbox
-│   ├── 📄 7.1_aplicando_flexbox/ —
-│   ├── 📄 7.2_comandos_flexbox/ —
-│   └── 📄 projeto_01/ —
+│   ├── 📄 7.1_aplicando_flexbox/ — Aplicação prática dos conceitos de Flexbox
+│   ├── 📄 7.2_comandos_flexbox/ — Propriedades e exemplos com Flexbox
+│   └── 📄 projeto_01/ — Projeto: Site Nebula Hosting com layout flexível
 ```
 ---
 
