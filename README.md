@@ -15,9 +15,14 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 │   ├── 📄 4.2_textos_no_css/ — Estilização de textos
 │   ├── 📄 tarefa_01/ — Exercício de estilização
 │   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
-└── 📁 5_formulario_html
-    ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
-    └── 📄 projeto_01/ — Projeto: Formulário de contato
+├── 📁 5_formulario_html
+│   ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
+│   ├── 📄 projeto_01/ — Projeto: Formulário de contato
+├── 📁 6_responsividade
+├── 📁 7_flexbox
+│   ├── 📄 7.1_aplicando_flexbox/ —
+│   ├── 📄 7.2_comandos_flexbox/ —
+│   └── 📄 projeto_01/ — 
 ```
 ---
 
@@ -34,6 +39,13 @@ Local: `4_introducao_ao_css/projeto_01/`
 Local: `5_formulario_html/projeto_01/`
 
 > 💬 Um formulário completo com campos de texto, opções e botão de envio.
+
+---
+
+### 📌 Projeto 3 - Site Nebula Hosting
+Local: `7_flexbox/projeto_01/`
+
+> 💬 Um site de hospedagens focado apenas no front-end.
 
 ---
 
