@@ -41,7 +41,6 @@ header ul {
 
 header ul li {
     padding: 10px;
-    transition: background-color 0.3s ease;
 }
 
 header ul li:last-child {
@@ -112,7 +111,6 @@ header ul li:last-child:hover {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .pricing-button:hover {
