@@ -80,6 +80,75 @@ header ul li:last-child:hover {
     padding: 50px 20px;
 }
 
+#faq {
+    padding: 20px 20px;
+    color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#faq h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+#faq details {
+    background-color: #0c0c0c;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#faq details:hover {
+    border-color: #9a4f9b;
+    background-color: #1a1a1a;
+}
+
+#faq summary {
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+}
+
+
+#faq p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #d1d1d1;
+}
+
+#main-footer {
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-content ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 .pricing-box {
     background-color: #0c0c0c;
     border-radius: 8px;
