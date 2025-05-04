@@ -1,6 +1,6 @@
-# Curso Front-End 👨‍💻
+# Curso Front-End 
 
-Este repositório contém os exercícios e projetos desenvolvidos durante o curso de Front-End do Matheus Battisti (Hora de Codar), abordando desde a introdução ao HTML até a construção de formulários e aplicações estilizadas com CSS. (até ao momento)
+Este repositório contém os exercícios e projetos desenvolvidos durante o curso de Front-End do Matheus Battisti (Hora de Codar), abordando desde a introdução ao HTML até a construção de formulários e aplicações estilizadas com CSS, além de incluir conteúdos com JavaScript.
 
 ```
 📂 Curso-Front-End
