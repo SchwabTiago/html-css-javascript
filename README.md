@@ -50,8 +50,6 @@ Local: `7_flexbox/projeto_01/`
 
 ---
 
----
-
 ### 📌 Projeto 4 - Site estilo blog
 Local: `7_flexbox/projeto_02/`
 
