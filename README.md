@@ -17,12 +17,13 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 │   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
 ├── 📁 5_formulario_html
 │   ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
-│   ├── 📄 projeto_01/ — Projeto: Formulário de contato
+│   └── 📄 projeto_01/ — Projeto: Formulário de contato
 ├── 📁 6_responsividade
 ├── 📁 7_flexbox
 │   ├── 📄 7.1_aplicando_flexbox/ — Aplicação prática dos conceitos de Flexbox
 │   ├── 📄 7.2_comandos_flexbox/ — Propriedades e exemplos com Flexbox
-│   └── 📄 projeto_01/ — Projeto: Site Nebula Hosting com layout flexível
+│   ├── 📄 projeto_01/ — Projeto: Site Nebula Hosting com layout flexível
+│   └── 📄 projeto_02/ — Projeto: Site estilo blog com postagens e codigo semantico
 ```
 ---
 
@@ -49,16 +50,25 @@ Local: `7_flexbox/projeto_01/`
 
 ---
 
+---
+
+### 📌 Projeto 4 - Site estilo blog
+Local: `7_flexbox/projeto_02/`
+
+> 📰  Um site estilo blog com tags semanticas e layout simples.
+
+---
+
 ## 🧪 Exercícios por Módulo
 
-| Módulo                   | Exercício                     | Conteúdo Abordado                         |
-|--------------------------|-------------------------------|-------------------------------------------|
-| Introdução               | 2.1, 2.2                      | Estrutura básica de um HTML               |
-| HTML                     | 3.1, tarefa_01                | Tags HTML, semântica e estrutura          |
-| CSS                      | 4.1, 4.2, tarefa_01, tarefa_02| Comandos CSS, estilização de texto, layout|
-| Formulários              | 5.1, projeto_01               | Campos, inputs e formulario completo      |
-| Responsividade           | -                             | Introdução à responsividade               |
-| Flexbox                  | 7.1, 7.2, projeto_01          | Conceitos de Flexbox                      |
+| Módulo                   | Exercício                       | Conteúdo Abordado                         |
+|--------------------------|---------------------------------|-------------------------------------------|
+| Introdução               | 2.1, 2.2                        | Estrutura básica de um HTML               |
+| HTML                     | 3.1, tarefa_01                  | Tags HTML, semântica e estrutura          |
+| CSS                      | 4.1, 4.2, tarefa_01, tarefa_02  | Comandos CSS, estilização de texto, layout|
+| Formulários              | 5.1, projeto_01                 | Campos, inputs e formulario completo      |
+| Responsividade           | -                               | Introdução à responsividade               |
+| Flexbox                  | 7.1, 7.2, projeto_01, projeto_02| Conceitos de Flexbox                      |
 
 ---
 
