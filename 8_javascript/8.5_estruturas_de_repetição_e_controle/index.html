@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const n = Math.random()
+        let p = 0
+
+        function testandoElseIf() {
+            if (n < 0.5) {
+                console.log("N é menor q 0.5")
+            } else if (n > 0.5 && n < 0.8) {
+                console.log("N esta entre 0.5 e 0.8")
+            } else if (n >= 0.8) {
+                console.log("N é maior q 0.8")
+
+            }
+        }
+
+        function testandoIfeElse() {
+            if (n > 0.5) {
+                console.log("N é maior q 0.5")
+            } else {
+                console.log("N é menor q 0.5")
+            }
+        }
+
+        function testandoWhile() {
+            while (p <= 5) {
+                console.log(p);
+                p = p + 1;
+            }
+        }
+
+        testandoIfeElse()
+        testandoElseIf()
+        testandoWhile()
+    </script>
+</body>
+
+</html>
