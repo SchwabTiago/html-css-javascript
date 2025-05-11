@@ -31,16 +31,58 @@
             }
         }
 
-        function testandoWhile() {
+        function testanWhile() {
             while (p <= 5) {
                 console.log(p);
                 p = p + 1;
             }
         }
 
+        function testandoFor() {
+            let a = 1
+            for (let i = 0; i < 10; i++) {
+                console.log("test", a++)
+            }
+        }
+
+        function testandoSwitch() {
+            let dia = Math.floor(Math.random() * 7) + 1;
+            let nomeDoDia;
+
+            switch (dia) {
+                case 1:
+                    nomeDoDia = "Domingo";
+                    break;
+                case 2:
+                    nomeDoDia = "Segunda-feira";
+                    break;
+                case 3:
+                    nomeDoDia = "Terça-feira";
+                    break;
+                case 4:
+                    nomeDoDia = "Quarta-feira";
+                    break;
+                case 5:
+                    nomeDoDia = "Quinta-feira";
+                    break;
+                case 6:
+                    nomeDoDia = "Sexta-feira";
+                    break;
+                case 7:
+                    nomeDoDia = "Sábado";
+                    break;
+                default:
+                    nomeDoDia = "Dia inválido";
+            }
+
+            console.log("Hoje é " + nomeDoDia);
+        }
+
         testandoIfeElse()
         testandoElseIf()
-        testandoWhile()
+        testanWhile()
+        testandoFor()
+        testandoSwitch()
     </script>
 </body>
 
