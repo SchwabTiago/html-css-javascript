@@ -5,26 +5,19 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ```
 📂 Curso-Front-End
 ├── 📁 2_introducao
-│   ├── 📄 2.1_ola_mundo/ — "Hello, World!" em HTML
-│   └── 📄 2.2_arquivo_html/ — Exemplo de arquivo HTML básico  
 ├── 📁 3_introducao_ao_html
-│   ├── 📄 3.1_algumas_tags_html/ — Demonstração de tags HTML básicas
 │   └── 📄 tarefa_01/ — Primeiro exercício
 ├── 📁 4_introducao_ao_css
-│   ├── 📄 4.1_comandos_css/ — Propriedades CSS fundamentais
-│   ├── 📄 4.2_textos_no_css/ — Estilização de textos
 │   ├── 📄 tarefa_01/ — Exercício de estilização
 │   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
 ├── 📁 5_formulario_html
-│   ├── 📄 5.1_tags_para_formularios/ — Revisão de elementos de formulário
 │   └── 📄 projeto_01/ — Projeto: Formulário de contato
 ├── 📁 6_responsividade
 ├── 📁 7_flexbox
-│   ├── 📄 7.1_aplicando_flexbox/ — Aplicação prática dos conceitos de Flexbox
-│   ├── 📄 7.2_comandos_flexbox/ — Propriedades e exemplos com Flexbox
 │   ├── 📄 projeto_01/ — Projeto: Site Nebula Hosting com layout flexível
 │   └── 📄 projeto_02/ — Projeto: Site estilo blog com postagens e codigo semantico
-```
+└── 📁 8_javascript
+
 ---
 
 ## 💼 Projetos Desenvolvidos
