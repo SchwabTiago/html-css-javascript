@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let pessoa = {
+            nome: "João",
+            idade: 30,
+            ativo: true,
+            hobbies: ["futebol", "leitura"],
+            endereco: {
+                rua: "Rua A",
+                numero: 123
+            },
+            saudacoes: function olaMeuNomeeh() {
+                console.log(this.nome)
+            }
+        }
+        console.log(pessoa.nome);
+        console.log(pessoa["idade"]);
+        pessoa.saudacao
+
+        pessoa.email = "joao@email.com";
+        console.log(pessoa.email)
+
+        console.log(pessoa.ativo)
+        delete pessoa.ativo;
+        console.log(pessoa.ativo)
+
+        console.log("nome" in pessoa);
+        console.log(pessoa.hasOwnProperty("idade"));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let vazio = [];
+
+        let frutas = ["maçã", "banana", "laranja"];
+
+        let misto = [1, "texto", true, null];
+
+        console.log(frutas[0]); // "maçã"
+        console.log(frutas[frutas.length - 1]); // último item
+
+        // push() – adiciona ao final
+        frutas.push("uva");
+
+        // pop() – remove do final
+        frutas.pop();
+
+        // unshift() – adiciona ao começo
+        frutas.unshift("abacaxi");
+
+        // shift() – remove do começo
+        frutas.shift();
+
+        // reverse() – inverte o array
+        frutas.reverse();
+
+        let existe = frutas.includes("banana"); // true/false
+
+        let str = frutas.join(", "); // "kiwi, laranja, uva"
+
+        let clonado = frutas.slice(); // copia superficial
+
+        let aninhado = [1, [2, [3, 4]]];
+        let achatado = aninhado.flat(2); // [1, 2, 3, 4]
+
+        let matriz = [
+            [1, 2],
+            [3, 4],
+            [5, 6]
+        ];
+        console.log(matriz[1][0]); // 3
+    </script>
+</body>
+
+</html>
