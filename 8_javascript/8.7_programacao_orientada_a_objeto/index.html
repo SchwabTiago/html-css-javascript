@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        class Pessoa {
+            constructor(nome, idade) {
+                this.nome = nome;
+                this.idade = idade;
+            }
+
+            apresentar() {
+                console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+            }
+
+            static especie() {
+                return "Homo sapiens";
+            }
+        }
+        
+        const pessoa1 = new Pessoa("João", 30);
+        const pessoa2 = new Pessoa("Maria", 25);
+
+        pessoa1.apresentar();
+        pessoa2.apresentar();
+        console.log(Pessoa.especie());
+
+        class Funcionario extends Pessoa {
+            constructor(nome, idade, cargo) {
+                super(nome, idade);
+                this.cargo = cargo;
+            }
+
+            apresentar() {
+                console.log(
+                    `Olá, meu nome é ${this.nome}, tenho ${this.idade} anos e sou ${this.cargo}.`
+                );
+            }
+        }
+
+        const funcionario1 = new Funcionario("Carlos", 40, "Gerente");
+        funcionario1.apresentar(); // Olá, meu nome é Carlos, tenho 40 anos e sou Gerente.
+
+        class ContaBancaria {
+            #saldo = 0;
+
+            constructor(cliente) {
+                this.cliente = cliente;
+            }
+
+            depositar(valor) {
+                if (valor > 0) {
+                    this.#saldo += valor;
+                }
+            }
+
+            sacar(valor) {
+                if (valor > 0 && valor <= this.#saldo) {
+                    this.#saldo -= valor;
+                }
+            }
+
+            get saldo() {
+                return this.#saldo;
+            }
+        }
+
+        const conta = new ContaBancaria("Ana");
+        conta.depositar(1000);
+        conta.sacar(200);
+        console.log(conta.saldo);
+
+    </script>
+</body>
+
+</html>
