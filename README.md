@@ -55,7 +55,7 @@ Local: `7_flexbox/projeto_02/`
 |--------------------------|---------------------------------|-------------------------------------------|
 | Introdução               | 2.1, 2.2                        | Estrutura básica de um HTML               |
 | HTML                     | 3.1, tarefa_01                  | Tags HTML, semântica e estrutura          |
-| CSS                      | 4.1, 4.2, tarefa_01, tarefa_02  | Comandos CSS, estilização de texto, layout|
+| CSS                      | 4.1, 4.2                        | Comandos CSS, estilização de texto, layout|
 | Formulários              | 5.1, projeto_01                 | Campos, inputs e formulario completo      |
 | Responsividade           | -                               | Introdução à responsividade               |
 | Flexbox                  | 7.1, 7.2, projeto_01, projeto_02| Conceitos de Flexbox                      |
