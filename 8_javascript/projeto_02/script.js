@@ -2,8 +2,8 @@ const textInput = document.querySelector('#text');
 const submitBtn = document.querySelector('#inputsubmit');
 const qrCodeImg = document.querySelector('#qrcode');
 
-function updateQRCode(data) {
-    const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${data}`;
+function updateQRCode(text) {
+    const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${text}`;
     qrCodeImg.src = qrCodeUrl;
 }
 
