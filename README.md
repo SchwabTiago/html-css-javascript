@@ -8,7 +8,6 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ├── 📁 3_introducao_ao_html
 │   └── 📄 tarefa_01/ — Primeiro exercício
 ├── 📁 4_introducao_ao_css
-│   ├── 📄 tarefa_01/ — Exercício de estilização
 │   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
 ├── 📁 5_formulario_html
 │   └── 📄 projeto_01/ — Projeto: Formulário de contato
