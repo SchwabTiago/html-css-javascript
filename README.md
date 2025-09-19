@@ -6,7 +6,6 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 📂 Curso-Front-End
 ├── 📁 2_introducao
 ├── 📁 3_introducao_ao_html
-│   └── 📄 tarefa_01/ — Primeiro exercício
 ├── 📁 4_introducao_ao_css
 │   └── 📄 projeto_01/ — Projeto: Site Simples com Imagem
 ├── 📁 5_formulario_html
