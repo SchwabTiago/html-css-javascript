@@ -21,40 +21,40 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 
 ---
 
-##💼 Projetos Desenvolvidos
+💼 Projetos Desenvolvidos
 
-### 📌 Site Simples com Imagem
-Local: `4_introducao_ao_css/projeto_01/`
+  📌 Site Simples com Imagem
+    Local: `4_introducao_ao_css/projeto_01/`
 
-> 💡 Um site simples estilizado com cabeçalho com corpo e rodapé usando CSS moderno.
-
----
-
-### 📌 Formulário de Contato  
-Local: `5_formulario_html/projeto_01/`
-
-> 💬 Um formulário completo com campos de texto, opções e botão de envio.
+    > 💡 Um site simples estilizado com cabeçalho com corpo e rodapé usando CSS moderno.
 
 ---
 
-### 📌 Site Nebula Hosting
-Local: `7_flexbox/projeto_01/`
+  📌 Formulário de Contato  
+    Local: `5_formulario_html/projeto_01/`
 
-> 🌌  Um site de hospedagem fictício, focado em layout responsivo com Flexbox.
-
----
-
-### 📌 Site estilo blog
-Local: `7_flexbox/projeto_02/`
-
-> 📰  Um site estilo blog com tags semanticas e layout simples.
+    > 💬 Um formulário completo com campos de texto, opções e botão de envio.
 
 ---
 
-### 📌 Projetos JS
-Local: `8_javascript/projeto_01/` | Local: `8_javascript/projeto_02/` | Local: `8_javascript/projeto_03/`
+  📌 Site Nebula Hosting
+    Local: `7_flexbox/projeto_01/`
 
-> 🟨  Programas simples para aprender e treinar o JS
+    > 🌌  Um site de hospedagem fictício, focado em layout responsivo com Flexbox.
+
+---
+
+  📌 Site estilo blog
+    Local: `7_flexbox/projeto_02/`
+
+    > 📰  Um site estilo blog com tags semanticas e layout simples.
+
+---
+
+  📌 Projetos JS
+    Local: `8_javascript/projeto_01/` | Local: `8_javascript/projeto_02/` | Local: `8_javascript/projeto_03/`
+
+    > 🟨  Programas simples para aprender e treinar o JS
 
 ---
 
