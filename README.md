@@ -1,4 +1,4 @@
-# Curso Front-End 
+# HTML, CSS e JS
 
 Este repositório contém os exercícios e projetos desenvolvidos durante o curso de Front-End do Matheus Battisti (Hora de Codar), abordando desde a introdução ao HTML até a construção de formulários e aplicações estilizadas com CSS, além de incluir conteúdos com JavaScript.
 
@@ -15,49 +15,46 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 │   ├── 📄 projeto_01/ — Projeto: Site Nebula Hosting com layout flexível
 │   └── 📄 projeto_02/ — Projeto: Site estilo blog com postagens e codigo semantico
 └── 📁 8_javascript
+│   ├── 📄 projeto_01/ — Gerador de tabuada
+│   ├── 📄 projeto_02/ — Gerador de QR Code com API
+│   └── 📄 projeto_03/ — Calculo de IMC
 
 ---
 
 ## 💼 Projetos Desenvolvidos
 
-### 📌 Projeto 1 - Site Simples com Imagem
+### 📌 Site Simples com Imagem
 Local: `4_introducao_ao_css/projeto_01/`
 
 > 💡 Um site simples estilizado com cabeçalho com corpo e rodapé usando CSS moderno.
 
 ---
 
-### 📌 Projeto 2 - Formulário de Contato  
+### 📌 Formulário de Contato  
 Local: `5_formulario_html/projeto_01/`
 
 > 💬 Um formulário completo com campos de texto, opções e botão de envio.
 
 ---
 
-### 📌 Projeto 3 - Site Nebula Hosting
+### 📌 Site Nebula Hosting
 Local: `7_flexbox/projeto_01/`
 
 > 🌌  Um site de hospedagem fictício, focado em layout responsivo com Flexbox.
 
 ---
 
-### 📌 Projeto 4 - Site estilo blog
+### 📌 Site estilo blog
 Local: `7_flexbox/projeto_02/`
 
 > 📰  Um site estilo blog com tags semanticas e layout simples.
 
 ---
 
-## 🧪 Exercícios por Módulo
+### 📌 Projetos JS
+Local: `8_javascript/projeto_01/` | Local: `8_javascript/projeto_02/` | Local: `8_javascript/projeto_03/`
 
-| Módulo                   | Exercício                       | Conteúdo Abordado                         |
-|--------------------------|---------------------------------|-------------------------------------------|
-| Introdução               | 2.1, 2.2                        | Estrutura básica de um HTML               |
-| HTML                     | 3.1, tarefa_01                  | Tags HTML, semântica e estrutura          |
-| CSS                      | 4.1, 4.2                        | Comandos CSS, estilização de texto, layout|
-| Formulários              | 5.1, projeto_01                 | Campos, inputs e formulario completo      |
-| Responsividade           | -                               | Introdução à responsividade               |
-| Flexbox                  | 7.1, 7.2, projeto_01, projeto_02| Conceitos de Flexbox                      |
+> 🟨  Programas simples para aprender e treinar o JS
 
 ---
 
