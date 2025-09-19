@@ -21,7 +21,7 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 
 ---
 
-## 💼 Projetos Desenvolvidos
+##💼 Projetos Desenvolvidos
 
 ### 📌 Site Simples com Imagem
 Local: `4_introducao_ao_css/projeto_01/`
